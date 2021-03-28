@@ -57,11 +57,11 @@ body{
 	/*width: 250px;*/
 	/*float: left;*/
 }
-.rightmenu{
+/*.rightmenu{
 	width: 300px;
 	float: right;
 	/*margin-left: 700px;*/
-} /*Почему не работает???*/
+/*}*/ /*Почему не работает???*/
 .mainlist ul{
 	text-align: center;
 	height: inherit;
