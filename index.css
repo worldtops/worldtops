@@ -120,7 +120,7 @@ body{
 .footer{
 	margin-left: 20px;
 }*/
-.content > div{
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve{
 	width: 600px;
 	/*border: 5px solid #fff;*/
 	display: inline-block;
