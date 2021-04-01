@@ -40,6 +40,7 @@ body{
 	border-radius: 20px;
 }
 .namep{
+	font-weight: 700;
 	transition: 0.5s;
 	background: linear-gradient(to right, #F0EAD6, #20B2AA); 
 	-webkit-background-clip: text; 
@@ -187,3 +188,4 @@ body{
 /*.one{
 	float: left; /*Почему???*/
 /*}*/
+
