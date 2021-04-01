@@ -72,7 +72,7 @@ body{
 }
 .mainlist li{
 	float: left;
-	width: 33%; /*300px;*/
+	width: 25%; /*300px;*/
 	list-style-type: none;
 	line-height: 100px;
 	text-align: center;
