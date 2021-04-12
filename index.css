@@ -11,7 +11,6 @@ body{
 	/*background: linear-gradient(to left, #D8D2EB, #F0EAD6);*/
 }
 .main{
-	margin: 0 auto;
 	text-align: justify;
 	font-family: Arial, sans-serif;
 	font-weight: 700;
@@ -225,6 +224,55 @@ body{
 /*.one{
 	float: left; /*Почему???*/
 /*}*/
-.eleven, .twelve{
-	margin-bottom: 30px;
+.footer{
+	background-color: #000;
+	margin-top: 50px;
+	font-family: Arial, sans-serif;
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 0;
+	text-align: justify;
+	float: left;
+	width: 100%;
+}
+.footerlist a{
+	text-decoration: none;
+	background: linear-gradient(to left, #943EFF, #F09350); 
+	-webkit-background-clip: text; 
+	-webkit-text-fill-color: transparent;
+	transition: 1s;
+	font-weight: 600;
+}
+.footerlist a:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+	font-weight: 700;
+}
+.footerlist li{
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+.footer ul{
+	list-style-type: none;
+}
+.footeliborder{
+	/*border: 1px solid #FFF7D5;
+	border-radius: 30px;*/
+}
+.footerliunderlne{
+	text-decoration: underline;
+}
+.footerlisite{
+	font-size: 17px;
+}
+.gif{
+	width: 50px;
+	height: 50px;
+}
+.divgif{
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
 }
