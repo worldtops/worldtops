@@ -108,10 +108,11 @@ h2{
 	text-align: center;
 	margin: 50px auto;
 	/*color: #fff;*/
-	background: linear-gradient(to left, #FDB4B4, #fff); 
+	background: linear-gradient(to right, #EBB2B2, #9457EB); 
 	-webkit-background-clip: text; 
 	-webkit-text-fill-color: transparent;
 	font-size: 27px;
+	text-transform: uppercase;
 }
 p{
 	text-indent: 30px;
