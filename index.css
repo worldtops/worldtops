@@ -43,7 +43,7 @@ ul{
 	border-radius: 20px;
 	background: linear-gradient(to right, #512F80, #9456EA); 
 	z-index: 1000;
-	margin-left: 90px;
+	left: 80%;
 }
 .kat:hover .element::before{
 	content: '';
@@ -55,7 +55,7 @@ ul{
 .kat:hover .element::after{
 	content: '';
 	position: absolute;
-    left: 190px; 
+    left: 44%; 
     top: 102px;
     border: 30px solid transparent; 
     border-top: 30px solid #04AC3C; 
@@ -255,6 +255,15 @@ ul{
 	.header, .footeliborder{
 		display: none;
 	}
+	.kat:hover .main_submenu{
+		width: 20%;
+	}
+	.kat:hover .element::after{
+	    left: 40%; 
+	}
+	.main_submenu{
+		left: 77.5%;
+	}
 	.footerlist li{
 		width: 40%;
 	}
@@ -276,6 +285,12 @@ ul{
 @media screen and (max-width: 1120px) {
 	.site{
 		display: none;
+	}
+	.kat:hover .main_submenu{
+		width: 27%;
+	}
+	.main_submenu{
+		left: 69.5%;
 	}
 	.mainlist > li, .kat{
 		width: 33%;
@@ -320,6 +335,9 @@ ul{
 	}
 }
 @media screen and (max-width: 640px) {
+	.kat:hover .element::after{
+	    left: 35%; 
+	}
 	.nameh1{
 		font-size: 18px;
 	}
@@ -334,6 +352,29 @@ ul{
 	}
 	.jpg{
 		height: 70%;
+	}
+}
+@media screen and (max-width: 499px) {
+	.kat:hover .element::after{
+	    left: 35%; 
+	}
+	.nameh1{
+		font-size: 18px;
+	}
+	.namep{
+		font-size: 13px;
+	}
+	.nameh1:hover{
+		font-size: 19px;
+	}
+	.namep:hover{
+		font-size: 14px;
+	}
+	.one .jpg{
+		height: 90%!important;
+	}
+	.serials{
+		font-size: 50px!important;
 	}
 }
 
