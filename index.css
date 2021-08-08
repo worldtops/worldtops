@@ -209,7 +209,7 @@ ul{
 }
 .footerlist{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-align: center;
 	align-items: center;
 }
@@ -227,7 +227,7 @@ ul{
 	font-weight: 700;
 }
 .footerlist li{
-	width: 33%;
+	width: 30%;
 }
 .footer ul{
 	list-style-type: none;
@@ -249,8 +249,11 @@ ul{
 }
 
 @media screen and (max-width: 1286px) {
-	.header{
+	.header, .footeliborder{
 		display: none;
+	}
+	.footerlist li{
+		width: 40%;
 	}
 	.content li{
 		width: 545px;
@@ -292,32 +295,33 @@ ul{
 }
 @media screen and (max-width: 1026px) {
 	.content li{
-		width: 700px;
+		width: 100%
 	}
 	.jpg{
-		width: 650px;
+		width: 80%;
 		display: block;
-		margin: 20px auto;
-		height: 450px;
+		margin: 50px auto;
+		height: 80%;
+	}
+	.serials{
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
-@media screen and (max-width: 765px) {
+
+@media screen and (max-width: 540px) {
 	.content li{
-		width: 590px;
+		width: 100%
 	}
 	.jpg{
-		width: 530px;
-		display: block;
-		margin: 20px auto;
-		height: 330px;
+		width: 80%;
+		margin: 50px auto;
+		height: 100px;
+	}
+	.serials{
+		width: 85%;
+		text-align: center;
+		margin: 0 auto;
 	}
 }
-@media screen and (max-width: 640px) {
-	.content li{
-		width: 530px;
-	}
-	.jpg{
-		width: 455px;
-		margin: 20px auto;
-		height: 295px;
-	}
